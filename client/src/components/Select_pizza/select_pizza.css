@@ -1,0 +1,84 @@
+.select_container{
+    width: 60%;
+    margin: 50px auto;
+    border: none;
+    background-color: #ebe2e2;
+    box-shadow: 10px 9px 6px -3px rgba(0,0,0,0.47);
+}
+.select_nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+    border-bottom: 1px double black;
+   
+}
+.back_home_btn{
+    border: none;
+    border-radius: 10px;
+    background-color: #64ce76;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.select_form{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    align-items: center;
+    
+  
+
+}
+
+.alert{
+    color: rgb(226, 19, 19);
+}
+.form_top{
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 30px;
+}
+.form_top select{
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 10px 9px 6px -3px rgba(0,0,0,0.47);
+}
+.row{
+    display: flex;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+}
+
+.notes_label{
+    margin-bottom: 20px;
+    
+}
+textarea{
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.timer{
+    margin-bottom: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    gap:20px;
+}
+.timer > input{
+    border: none;
+    height: 30px;
+    border-radius: 5px;
+    padding: 5px;
+}

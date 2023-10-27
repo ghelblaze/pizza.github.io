@@ -1,0 +1,51 @@
+.order_container{
+    width: 80%;
+    margin: 50px auto;
+    border: none;
+    background-color: #ebe2e2;
+    box-shadow: 10px 9px 6px -3px rgba(0,0,0,0.47);
+}
+.order_nav_top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+.order_btn{
+    border: none;
+    border-radius: 10px;
+    background-color: #64ce76;
+    padding: 10px;
+    cursor: pointer;
+}
+.delete_btn{
+    border: none;
+    border-radius: 10px;
+    background-color: #ee2222;
+    padding: 10px;
+    cursor: pointer;
+}
+.order_nav_bottom{
+    display: flex;
+    align-items: center;
+    justify-content:end;
+    padding: 0 20px;
+    gap: 20px;
+}
+.order_list_body{
+    margin-top: 30px;
+    padding: 30px;
+
+}
+table,th, td{
+    border: 1px solid;
+    border-collapse: collapse;
+    padding: 15px;
+    text-align: center;
+}
+table{
+    margin: auto ;
+    
+
+}
